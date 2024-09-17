@@ -111,6 +111,7 @@
   }
 
   .content__title{
+    text-decoration: underline;
     color: #000000;
     font-size: 4vh;
     font-weight: 800;
