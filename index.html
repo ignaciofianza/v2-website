@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ignacio Fianza</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,6 +22,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="./img/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="./img/android-chrome-192x192.png" sizes="192x192" type="image/png">
+    <link rel="icon" href="./img/android-chrome-512x512.png" sizes="512x512" type="image/png">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+
   </head>
   <body>
     <!-- header mobile -->
@@ -29,6 +37,14 @@
       <!-- header-left -->
       <div class="header__left">
         <a href="#"><img src="./img/logo.png" alt="Logo" /></a>
+      </div>
+
+      <!-- header PC Right -->
+      <div class="header__pc">
+        <a href="#" class="header__pc-link">About</a>
+        <a href="#" class="header__pc-link">Projects</a>
+        <a href="#" class="header__pc-link">Contact</a>
+        <a href="#" class="header__pc-link">TecnoDoc</a>
       </div>
 
       <!-- close icon (hidden initially) -->
@@ -57,52 +73,57 @@
     </section>
 
     <section class="content">
-      <div class="content__overview">
-        <h2 class="content__title">Overview</h2>
-        <p class="content__text">
-          I'm a passionate web developer specializing in frontend development. I
-          focus on building dynamic, user-friendly websites with a strong
-          emphasis on performance and design. My journey in web development is
-          driven by continuous learning and the desire to create efficient web
-          solutions
-        </p>
+      <div class="content__group-a">
+        <div class="content__overview">
+          <h2 class="content__title">Overview</h2>
+          <p class="content__text">
+            I'm a passionate web developer specializing in frontend development.
+            I focus on building dynamic, user-friendly websites with a strong
+            emphasis on performance and design. My journey in web development is
+            driven by continuous learning and the desire to create efficient web
+            solutions
+          </p>
+        </div>
+        <div class="content__aboutme">
+          <h2 class="content__title">About Me</h2>
+          <p class="content__text">
+            As a frontend web developer focused on creating engaging and
+            efficient websites, I'm currently working towards my high school
+            diploma and expanding my skills in web technologies. For more
+            details about my background and goals, visit the
+            <a href="#" class="content__link">About Me</a> section.
+          </p>
+        </div>
       </div>
-      <div class="content__aboutme">
-        <h2 class="content__title">About Me</h2>
-        <p class="content__text">
-          As a frontend web developer focused on creating engaging and efficient
-          websites, I'm currently working towards my high school diploma and
-          expanding my skills in web technologies. For more details about my
-          background and goals, visit the <a href="#">About Me</a> section.
-        </p>
-      </div>
-      <div class="content__projects">
-        <h2 class="content__title">Projects</h2>
-        <p class="content__text">
-          Projects I’ve worked on several exciting projects that highlight my
-          skills in web development. These include personal websites, dynamic
-          web applications, and more. To see a detailed overview of each project
-          and the technologies used, please visit the
-          <a href="#">Projects</a> section.
-        </p>
-      </div>
-      <div class="content__skills">
-        <h2 class="content__title">Skills</h2>
-        <p class="content__text">
-          I have expertise in frontend development, including proficiency in
-          HTML, CSS, and JavaScript. I’m also skilled in responsive design,
-          performance optimization, and using frameworks like React. For a
-          comprehensive overview of my skills and how I apply them, please visit
-          the
-          <a href="#">About Me</a> section.
-        </p>
+      <div class="content__group-b">
+        <div class="content__projects">
+          <h2 class="content__title">Projects</h2>
+          <p class="content__text">
+            Projects I’ve worked on several exciting projects that highlight my
+            skills in web development. These include personal websites, dynamic
+            web applications, and more. To see a detailed overview of each
+            project and the technologies used, please visit the
+            <a href="#" class="content__link">Projects</a> section.
+          </p>
+        </div>
+        <div class="content__skills">
+          <h2 class="content__title">Skills</h2>
+          <p class="content__text">
+            I have expertise in frontend development, including proficiency in
+            HTML, CSS, and JavaScript. I’m also skilled in responsive design,
+            performance optimization, and using frameworks like React. For a
+            comprehensive overview of my skills and how I apply them, please
+            visit the
+            <a href="#" class="content__link">About Me</a> section.
+          </p>
+        </div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="footer__social">
-        <a href="#"><i class="bi bi-linkedin"></i></a>
         <a href="#"><i class="bi bi-github"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
         <a href="#"><i class="bi bi-instagram"></i></a>
         <a href="#"><i class="bi bi-twitter-x"></i></a>
       </div>
