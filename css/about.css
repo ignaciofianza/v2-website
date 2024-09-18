@@ -173,20 +173,24 @@
   font-size: 16px;
 }
 
-@media (min-width: 700px){
+@media (min-width: 700px) {
+  body {
+    align-items: center;
+  }
 
-    body{
-        align-items: center;
-    }
+  .contents,
+  .journey,
+  .what-i-do,
+  .beyond-development,
+  .looking-ahead,
+  .tech-stack {
+    background-color: #2222226c;
+    margin: 5px 0px;
+    width: 90%;
+    border-radius: 5px;
+  }
 
-    .contents, .journey, .what-i-do, .beyond-development, .looking-ahead, .tech-stack{
-        background-color: #2222226c;
-        margin: 5px 0px;
-        width: 90%;
-        border-radius: 5px;
-    }
-    
-    .tech-stack{
-        width: 90%;
-    }
+  .tech-stack {
+    width: 90%;
+  }
 }
