@@ -1,0 +1,192 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.contents__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contents__content-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.content__text {
+  margin-top: 5px;
+}
+
+.journey {
+  padding: 16px;
+  background-color: #333;
+  color: #fff;
+}
+
+.journey__title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.journey__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.journey__item {
+  background-color: #444;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.journey__item-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.journey__item-text {
+  font-size: 16px;
+}
+
+.what-i-do {
+  padding: 16px;
+  background-color: #222;
+  color: #fff;
+}
+
+.what-i-do__title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.what-i-do__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.what-i-do__item {
+  background-color: #333;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.what-i-do__icon {
+  font-size: 24px;
+}
+
+.what-i-do__item-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.what-i-do__item-text {
+  font-size: 16px;
+}
+
+.tech-stack {
+  padding: 16px;
+  background-color: #222;
+  color: #fff;
+}
+
+.tech-stack__title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.tech-stack__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tech-stack__item {
+  background-color: #333;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tech-stack__icon {
+  font-size: 24px;
+}
+
+.tech-stack__item-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.tech-stack__item-text {
+  font-size: 16px;
+}
+
+.beyond-development {
+  padding: 16px;
+  background-color: #222;
+  color: #fff;
+}
+
+.beyond-development__title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.beyond-development__content {
+  background-color: #333;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.beyond-development__text {
+  font-size: 16px;
+}
+
+.looking-ahead {
+  padding: 16px;
+  background-color: #222;
+  color: #fff;
+}
+
+.looking-ahead__title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.looking-ahead__content {
+  background-color: #333;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.looking-ahead__text {
+  font-size: 16px;
+}
+
+@media (min-width: 700px){
+
+    body{
+        align-items: center;
+    }
+
+    .contents, .journey, .what-i-do, .beyond-development, .looking-ahead, .tech-stack{
+        background-color: #2222226c;
+        margin: 5px 0px;
+        width: 90%;
+        border-radius: 5px;
+    }
+    
+    .tech-stack{
+        width: 90%;
+    }
+}
