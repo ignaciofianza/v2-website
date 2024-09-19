@@ -5,6 +5,11 @@
   font-family: Montserrat;
 }
 
+*::selection{
+  background-color: #ffffff4f;
+  color: #032d6d;
+}
+
 body {
   background-color: #1e2029;
   display: flex;
