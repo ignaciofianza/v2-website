@@ -2,17 +2,12 @@
 User-agent: *
 Disallow:
 
-# Bloquear el acceso a las carpetas de imágenes, scripts y estilos
-Disallow: /img/
-Disallow: /js/
-Disallow: /css/
+# Bloquear el acceso a las carpetas privadas
+Disallow: /private/
+Disallow: /admin/
 
 # Permitir rastreo del favicon
 Allow: /img/favicon.ico
-
-# Bloquear archivos que no deberían ser indexados
-Disallow: /private/
-Disallow: /admin/
 
 # Sitemap
 Sitemap: https://www.ignaciofianza.com/sitemap.xml
