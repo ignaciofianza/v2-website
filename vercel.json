@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/:path.html",
-      "destination": "/pages/:path.html",
+      "destination": "/:path",
       "permanent": true
     }
   ],
