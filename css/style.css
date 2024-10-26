@@ -19,13 +19,14 @@ body {
 .header {
   align-self: flex-start;
   display: flex;
-  padding: 10px 20px 0 10px;
+  padding: 0 10px;
   background-color: #2b2e38;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
   z-index: 900;
+  height: 60px;
 }
 
 .header__left img {
