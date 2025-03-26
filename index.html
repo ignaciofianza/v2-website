@@ -54,76 +54,20 @@
       type="image/png"
     />
     <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
-
-    <!-- Open Graph tags -->
-    <meta property="og:title" content="Ignacio Fianza" />
-    <meta
-      property="og:description"
-      content="Ignacio Fianza, Computer Science student and Full-Stack Developer from Uruguay. Passionate about web development and motorsports."
-    />
-    <meta
-      property="og:image"
-      content="https://www.ignaciofianza.com/img/favicon.ico"
-    />
-    <meta property="og:url" content="https://www.ignaciofianza.com" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter Card tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Ignacio Fianza" />
-    <meta
-      name="twitter:description"
-      content="Ignacio Fianza, Computer Science student and Full-Stack Developer from Uruguay. Passionate about web development and motorsports."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.ignaciofianza.com/img/favicon.ico"
-    />
-    <meta name="twitter:site" content="@nachofianzaa_" />
-
-    <!-- Schema.org Markup -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Ignacio Fianza",
-        "url": "https://ignaciofianza.com",
-        "sameAs": [
-          "https://www.linkedin.com/in/ignacio-fianza-costa-41610b31a/",
-          "https://github.com/ignaciofianza/"
-        ],
-        "jobTitle": "Full-Stack Developer",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Freelancer"
-        }
-      }
-    </script>
   </head>
   <body>
     <!-- header mobile -->
     <header class="header">
       <!-- header-left -->
       <div class="header__left">
-        <a href="https://www.ignaciofianza.com/"
-          ><img src="./img/logo.png" alt="Logo"
-        /></a>
+        <a href="/"><img src="../img/logo.png" alt="Logo" /></a>
       </div>
 
       <!-- header PC Right -->
       <div class="header__pc">
-        <a href="https://www.ignaciofianza.com/about" class="header__pc-link"
-          >About</a
-        >
-        <a href="https://www.ignaciofianza.com/projects" class="header__pc-link"
-          >Projects</a
-        >
-        <a href="https://www.ignaciofianza.com/contact" class="header__pc-link"
-          >Contact</a
-        >
-        <a href="https://tecnodoc.ignaciofianza.com/" class="header__pc-link"
-          >TecnoDoc</a
-        >
+        <a href="/about" class="header__pc-link">About</a>
+        <a href="/projects" class="header__pc-link">Projects</a>
+        <a href="/contact" class="header__pc-link">Contact</a>
       </div>
 
       <!-- close icon (hidden initially) -->
@@ -133,11 +77,10 @@
 
       <!-- Off-screen menu -->
       <div class="header__off-screen-menu">
-        <a href="https://www.ignaciofianza.com/">Home</a>
-        <a href="https://www.ignaciofianza.com/about">About</a>
-        <a href="https://www.ignaciofianza.com/projects">Projects</a>
-        <a href="https://www.ignaciofianza.com/contact">Contact</a>
-        <a href="https://tecnodoc.ignaciofianza.com/">TecnoDoc</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact">Contact</a>
       </div>
 
       <!-- hamburger menu icon -->
@@ -145,7 +88,20 @@
         <i class="bi bi-list"></i>
       </div>
     </header>
-
+    <div
+      style="
+        background: red;
+        color: white;
+        padding: 10px;
+        text-align: cente;
+        margin-bottom: 30px;
+      "
+    >
+      This version of the website is deprecated. Visit the latest version at
+      <a href="https://ignaciofianza.com" style="color: yellow"
+        >ignaciofianza.com</a
+      >.
+    </div>
     <section class="main">
       <h2 class="main__subtitle">Hello World! I'm</h2>
       <h1 class="main__title">Ignacio Fianza</h1>
@@ -171,9 +127,7 @@
             high school diploma while expanding my expertise in web
             technologies. For more details about my background and goals, visit
             the
-            <a href="https://www.ignaciofianza.com/about" class="content__link"
-              >about me</a
-            >
+            <a href="/about" class="content__link">about me</a>
             section.
           </p>
         </div>
@@ -186,11 +140,7 @@
             web development. These include personal websites, dynamic web
             applications, and more. To see a detailed overview of each project
             and the technologies used, please visit the
-            <a
-              href="https://www.ignaciofianza.com/projects"
-              class="content__link"
-              >projects</a
-            >
+            <a href="/projects" class="content__link">projects</a>
             section.
           </p>
         </div>
@@ -202,9 +152,7 @@
             experienced in responsive design, performance optimization, and
             using frameworks like React. For a detailed overview of my skills
             and how I apply them, please visit the
-            <a href="https://www.ignaciofianza.com/about" class="content__link"
-              >about me</a
-            >
+            <a href="/about" class="content__link">about me</a>
             section.
           </p>
         </div>
@@ -216,9 +164,7 @@
         <a href="https://github.com/ignaciofianza" target="_blank"
           ><i class="bi bi-github"></i
         ></a>
-        <a
-          href="https://www.linkedin.com/in/ignacio-fianza-586020320/"
-          target="_blank"
+        <a href="https://www.linkedin.com/in/ignaciofianza" target="_blank"
           ><i class="bi bi-linkedin"></i
         ></a>
         <a href="https://www.instagram.com/ignaciofianza/" target="_blank"
