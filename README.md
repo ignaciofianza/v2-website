@@ -25,6 +25,7 @@ It represents the second major version of my personal website and reflects my de
 - HTML
 - CSS
 - JavaScript
+- Bootstrap Icons
 - Vercel
 
 ## Sections
